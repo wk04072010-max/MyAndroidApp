@@ -1,0 +1,5 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+<Button android:id="@+id/btnSelectFolder" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SDカードフォルダ選択"/>
+<Button android:id="@+id/btnWriteBin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="BINを書き込む"/>
+<TextView android:id="@+id/tvStatus" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="ステータス表示" android:paddingTop="16dp"/>
+</LinearLayout>
